@@ -1,41 +1,40 @@
-import { NextSeo } from "next-seo";
+import Head from "next/head";
 
 import ProjectCard from "@/components/projects/project-card";
 import { PROJECTS_CARD } from "@/data/projects";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Projects() {
   return (
     <>
-      <NextSeo
-        title="Projects by Umar Farooq - Fullstack Developer Portfolio"
-        description="Explore a collection of projects by Umar Farooq, a seasoned Fullstack Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
-        canonical={`${siteMetadata.siteUrl}/projects`}
-        openGraph={{
-          url: `${siteMetadata.siteUrl}/projects`,
-          title: "Discover Projects by Umar Farooq - Fullstack Developer",
-          description:
-            "Explore a showcase of projects crafted by Umar Farooq, a Fullstack Developer. Witness the fusion of creativity and technology in web development.",
-          images: [
-            {
-              url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Umar Farooq - Portfolio Image",
-            },
-          ],
-          siteName: siteMetadata.siteName,
-          type: "website",
-        }}
-        twitter={{
-          cardType: "summary_large_image",
-        }}
-        additionalMetaTags={[
-          {
-            property: "keywords",
-            content:
-              "Projects,Umar Portfolio, Software Developer, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
-          },
-        ]}
-      />
+      <Head>
+        <title>Projects by Umar Farooq - Fullstack Developer Portfolio</title>
+        <meta
+          name="description"
+          content="Explore a collection of projects by Umar Farooq, a seasoned Fullstack Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        />
+        <link rel="canonical" href="https://uf-portfolio-v2.vercel.app/projects" />
+        <meta
+          property="og:url"
+          content="https://uf-portfolio-v2.vercel.app/projects"
+        />
+        <meta
+          property="og:title"
+          content="Discover Projects by Umar Farooq - Fullstack Developer"
+        />
+        <meta
+          property="og:description"
+          content="Explore a showcase of projects crafted by Umar Farooq, a Fullstack Developer. Witness the fusion of creativity and technology in web development."
+        />
+        <meta
+          property="og:image"
+          content="https://yourwebsite.com/static/homepage.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="keywords"
+          content="Projects, Umar Portfolio, Software Developer, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design"
+        />
+      </Head>
       <section className="mx-auto mb-40 mt-6 w-full gap-20 px-6 sm:mt-12 sm:px-14 md:px-20">
         <div className="mx-auto max-w-7xl">
           <h1 className="text-2xl font-semibold text-foreground md:text-4xl">
@@ -59,7 +58,7 @@ export default function Projects() {
             <p className="mt-10 text-base md:text-xl">
               Visit my github to see some of the latest projects{" "}
               <a
-                href={`${siteMetadata.github}?tab=repositories`}
+                href="https://github.com/yourusername?tab=repositories"
                 target="_blank"
                 className="font-semibold text-accent underline underline-offset-2 hover:text-accent/70"
               >
