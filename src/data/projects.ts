@@ -5,12 +5,12 @@ import { siteMetadata } from "@/data/siteMetaData.mjs";
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
     index: 0,
-    title: "Json Tree",
+    title: "Blog Application",
     href: "/projects",
-    tags: ["Nextjs", "Tailwindcss", "Monaco Editor", "Vercel"],
+    tags: ["Reactjs", "Tailwindcss", "Firebase", "Vercel"],
     image: {
-      LIGHT: "/images/projects/jsontreeLight.webp",
-      DARK: "/images/projects/jsontreeDark.webp",
+      LIGHT: "/images/projects/blog-app.png",
+      DARK: "/images/projects/blog-app.png",
     },
   },
   {
