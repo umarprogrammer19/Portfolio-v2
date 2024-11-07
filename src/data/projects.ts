@@ -15,20 +15,18 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 1,
-    title: "Many Games",
+    title: "E-Commerce",
     href: "/projects",
     tags: [
-      "Reactjs",
+      "NextJs",
       "Tailwindcss",
-      "Scss",
-      "Vite",
-      "React-router-dom",
       "Redux",
+      "API",
       "Vercel",
     ],
     image: {
-      LIGHT: "/images/projects/manyGamesLight.webp",
-      DARK: "/images/projects/manyGamesDark.webp",
+      LIGHT: "/images/projects/e-commerce.png",
+      DARK: "/images/projects/e-commerce.png",
     },
   },
   {
