@@ -33,7 +33,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 2,
     title: "Crypto Site",
     href: "/projects",
-    tags: ["HTML","CSS","Javascript"],
+    tags: ["HTML", "CSS", "Javascript"],
     image: {
       LIGHT: "/images/projects/crypto.png",
       DARK: "/images/projects/crypto.png",
@@ -55,17 +55,17 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://uf-react-blogging-app.vercel.app/",
   },
   {
-    name: "Kanban app",
-    favicon: "/images/projects/logos/kanban.ico",
+    name: "E-Commerce Site",
+    favicon: "/images/projects/logos/e-logo.png",
     imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
+      "/images/projects/e-1.png",
+      "/images/projects/e-2.png",
+      "/images/projects/e-3.png",
     ],
     description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
+      "I created a sleek e-commerce platform designed for an intuitive shopping experience. With features like product browsing, filtering, and a streamlined checkout process, the app ensures smooth navigation and functionality.",
+    sourceCodeHref: "https://github.com/umarprogrammer19/next-e-commerce",
+    liveWebsiteHref: "https://uf-next-e-commerce.vercel.app",
   },
   {
     name: "Many Games",
@@ -86,12 +86,12 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "My portfolio",
     favicon: "/favicon.ico",
     imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
+      "/images/projects/p1.png",
+      "/images/projects/p2.png",
     ],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/amitchauhan-v2",
+    sourceCodeHref: "https://github.com/umarprogrammer19/portfolio-v2",
     liveWebsiteHref: siteMetadata.siteUrl,
   },
   {
