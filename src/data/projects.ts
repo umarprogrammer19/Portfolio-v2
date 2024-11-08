@@ -43,16 +43,16 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
-    name: "Json tree",
-    favicon: "/images/projects/logos/jsontree.ico",
+    name: "Blog Application",
+    favicon: "/images/projects/logos/blog.png",
     imageUrl: [
-      "/images/projects/jsontreeLight.webp",
-      "/images/projects/jsontreeDark.webp",
+      "/images/projects/blog-1.png",
+      "/images/projects/blog-2.png",
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
-    liveWebsiteHref: "https://jsontree.vercel.app",
+      "I developed a blog application with a modern, responsive UI that enables users to read, create, and comment on posts. It integrates dynamic content handling using React state for the comments section, offering a seamless experience for engaging with blog content.",
+    sourceCodeHref: "https://github.com/umarprogrammer19/React-Blogging-App",
+    liveWebsiteHref: "https://uf-react-blogging-app.vercel.app/",
   },
   {
     name: "Kanban app",
