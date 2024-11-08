@@ -68,19 +68,18 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://uf-next-e-commerce.vercel.app",
   },
   {
-    name: "Many Games",
-    favicon: "/images/projects/logos/manygames.ico",
+    name: "Cryptex",
+    favicon: "/images/projects/logos/crypto.png",
     imageUrl: [
-      "/images/projects/manyGamesDark.webp",
-      "/images/projects/manyGamesLight.webp",
-      "/images/projects/manyGames2048.webp",
-      "/images/projects/manyGamesPuzzle.webp",
-      "/images/projects/manyGamesWordle.webp",
+      "/images/projects/cr1.png",
+      "/images/projects/cr2.png",
+      "/images/projects/cr3.png",
+      "/images/projects/cr4.png",
     ],
     description:
-      "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
-    liveWebsiteHref: "https://manygames.vercel.app",
+      "I built a crypto web app that offers live price tracking and market insights, providing users with an intuitive way to stay updated on cryptocurrency trends.",
+    sourceCodeHref: "https://github.com/umarprogrammer19/Crypto-Site",
+    liveWebsiteHref: "https://uf-new-crypto.netlify.app",
   },
   {
     name: "My portfolio",
