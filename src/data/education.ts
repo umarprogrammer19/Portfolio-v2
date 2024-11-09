@@ -9,8 +9,10 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     },
     date: "Present",
     location: "Pakistan, Karachi",
-    description: "Currently Doing Inter In Pre-Engineering From Adamjee Government Science College.",
+    description:
+      "Currently Doing Inter In Pre-Engineering From Adamjee Government Science College.",
   },
+
   {
     title: "Matriculation",
     organisation: {
