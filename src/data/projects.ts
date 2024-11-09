@@ -17,13 +17,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 1,
     title: "E-Commerce",
     href: "/projects",
-    tags: [
-      "NextJs",
-      "Tailwindcss",
-      "Redux",
-      "API",
-      "Vercel",
-    ],
+    tags: ["NextJs", "Tailwindcss", "Redux", "API", "Vercel"],
     image: {
       LIGHT: "/images/projects/e-commerce.png",
       DARK: "/images/projects/e-commerce.png",
@@ -45,10 +39,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Blog Application",
     favicon: "/images/projects/logos/blog.png",
-    imageUrl: [
-      "/images/projects/blog-1.png",
-      "/images/projects/blog-2.png",
-    ],
+    imageUrl: ["/images/projects/blog-1.png", "/images/projects/blog-2.png"],
     description:
       "I developed a blog application with a modern, responsive UI that enables users to read, create, and comment on posts. It integrates dynamic content handling using React state for the comments section, offering a seamless experience for engaging with blog content.",
     sourceCodeHref: "https://github.com/umarprogrammer19/React-Blogging-App",
@@ -84,10 +75,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "My portfolio",
     favicon: "/favicon.ico",
-    imageUrl: [
-      "/images/projects/p1.png",
-      "/images/projects/p2.png",
-    ],
+    imageUrl: ["/images/projects/p1.png", "/images/projects/p2.png"],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
     sourceCodeHref: "https://github.com/umarprogrammer19/portfolio-v2",

@@ -20,7 +20,6 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     },
     date: "2021-2023",
     location: "Pakistan, Karachi",
-    description:
-      "Completed Matriculation From Hermain Acme Grammer School.",
+    description: "Completed Matriculation From Hermain Acme Grammer School.",
   },
 ];

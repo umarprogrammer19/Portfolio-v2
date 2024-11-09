@@ -1,12 +1,6 @@
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon
-} from "@/components/icons";
+import { FramerMotionIcon, ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
-import {
-  SiExpress,
-  SiNextdotjs
-} from "react-icons/si";
+import { SiExpress, SiNextdotjs } from "react-icons/si";
 
 // Languages
 import CsssSvg from "@/public/icons/css.svg";
