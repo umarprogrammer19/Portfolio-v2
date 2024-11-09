@@ -95,7 +95,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Todo Application",
-    favicon: "/images/projects/logos/to-do-list.jpeg",
+    favicon: "/images/projects/logos/to-do-list.jpg",
     imageUrl: [
       "/images/projects/t1.png",
       "/images/projects/t2.png",
