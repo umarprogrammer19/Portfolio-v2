@@ -59,7 +59,7 @@ export default function Projects() {
             <p className="mt-10 text-base md:text-xl">
               Visit my github to see some of the latest projects{" "}
               <a
-                href={`${siteMetadata.github}?tab=repositories`}
+                href={`${siteMetadata.github}`}
                 target="_blank"
                 className="font-semibold text-accent underline underline-offset-2 hover:text-accent/70"
               >

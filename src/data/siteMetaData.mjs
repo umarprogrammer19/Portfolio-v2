@@ -4,7 +4,7 @@ export const siteMetadata = {
     headerTitle: "Umra Farooq",
     description: "Frontend and Reactjs developer",
     language: "en-us",
-    theme: "light",
+    theme: "dark",
     siteName: "uf-portfolio-v2.vercel.app",
     siteUrl: "https://uf-portfolio-v2.vercel.app",
     siteRepo: "https://github.com/umarprogrammer19/Portfolio-v2",
